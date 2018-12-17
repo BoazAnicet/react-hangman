@@ -1,0 +1,30 @@
+.keyboard {
+  position: relative;
+}
+
+.key {
+  display: inline-block;
+  padding: 10px;
+  margin: 7px;
+  height: 20px;
+  width: 20px;
+  color: #ecf0f1;
+  border: 2px solid transparent;
+  transition: .1s linear;
+  font-weight: 200;
+  
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+  }
+
+  &--disabled {
+    opacity: .50;
+    transform: scale(0.9);
+    &:hover {
+      cursor: initial;
+      transform: scale(0.9);
+    }
+  }
+}
+

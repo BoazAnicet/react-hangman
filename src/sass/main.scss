@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400');
+@import './components/button';
+@import './components/character';
+@import './components/keyboard';
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+}
+
+body {
+  background-color: #3498db;
+}
+
+.game {
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.container {
+  margin: 40px auto 0 auto;
+  padding: 20px;
+  max-width: 700px;
+  background-color: #2980b9;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 0px rgba(#000000, 0.5);
+  transition: all 1s ease-out;
+}
+
+.row {
+  display: block;
+}
+
+.word {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.turns {
+  display: flex;
+  justify-content: space-between;
+  max-width: 700px;
+  margin: 350px auto 0 auto;
+}
